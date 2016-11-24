@@ -1,8 +1,8 @@
 # mono
 
-[![Build Status](https://travis-ci.org/meatwallace/js-mono.svg?branch=master)](https://travis-ci.org/meatwallace/js-mono)
-[![Test Coverage](https://codeclimate.com/github/meatwallace/js-mono/badges/coverage.svg)](https://codeclimate.com/github/meatwallace/js-mono/coverage)
-[![Code Climate](https://codeclimate.com/github/meatwallace/js-mono/badges/gpa.svg)](https://codeclimate.com/github/meatwallace/js-mono)
+[![Build Status](https://travis-ci.org/meatwallace/mono.svg?branch=master)](https://travis-ci.org/meatwallace/mono)
+[![Test Coverage](https://codeclimate.com/github/meatwallace/mono/badges/coverage.svg)](https://codeclimate.com/github/meatwallace/mono/coverage)
+[![Code Climate](https://codeclimate.com/github/meatwallace/mono/badges/gpa.svg)](https://codeclimate.com/github/meatwallace/mono)
 
 An organisation-level JavaScript monorepo configuration, demonstrating cross-project code sharing, dependency management, and tooling configuration.
 
