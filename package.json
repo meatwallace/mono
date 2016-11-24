@@ -1,0 +1,56 @@
+{
+  "name": "mono",
+  "version": "0.0.0",
+  "description": "Javascript mono repository boilerplate",
+  "scripts": {
+    "start": "npm run test",
+    "deps": ".build/deps.sh",
+    "test": "jest --watch",
+    "test-ci": "jest --bail --coverage",
+    "lint": "eslint . --fix; stylelint ./**/*.css",
+    "deploy": ".build/build.sh"
+  },
+  "author": "Geoff Whatley",
+  "license": "Unlicense",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.26",
+    "babel-eslint": "^7.0.0",
+    "babel-jest": "^16.0.0",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-es2016": "^6.16.0",
+    "babel-preset-es2017": "^6.16.0",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-root-import": "^4.1.4",
+    "cz-conventional-changelog": "^1.1.6",
+    "enzyme": "^2.1.0",
+    "eslint": "^3.6.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.3.0",
+    "jest-cli": "^16.0.2",
+    "react": "^15.3.2",
+    "react-addons-test-utils": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "sinon": "^1.17.6",
+    "stylelint": "^7.3.1",
+    "stylelint-config-standard": "^14.0.0",
+    "webpack": "2.1.0-beta.27"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "^.*\\.css$": "<rootDir>/.build/jest-css-modules.js"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
