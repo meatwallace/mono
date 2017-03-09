@@ -1,5 +1,7 @@
 # mono
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/meatwallace/mono.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/meatwallace/mono.svg?branch=master)](https://travis-ci.org/meatwallace/mono)
 [![Test Coverage](https://codeclimate.com/github/meatwallace/mono/badges/coverage.svg)](https://codeclimate.com/github/meatwallace/mono/coverage)
 [![Code Climate](https://codeclimate.com/github/meatwallace/mono/badges/gpa.svg)](https://codeclimate.com/github/meatwallace/mono)
