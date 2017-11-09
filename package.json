@@ -37,7 +37,7 @@
     "jest-cli": "^19.0.2",
     "react": "^15.4.2",
     "react-addons-test-utils": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "react-dom": "^16.1.0",
     "sinon": "^2.0.0",
     "stylelint": "^7.9.0",
     "stylelint-config-standard": "^16.0.0",
