@@ -28,7 +28,7 @@
     "babel-preset-stage-0": "^6.22.0",
     "babel-root-import": "^4.1.8",
     "cz-conventional-changelog": "^2.0.0",
-    "enzyme": "^2.7.1",
+    "enzyme": "^3.2.0",
     "eslint": "^3.17.1",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
